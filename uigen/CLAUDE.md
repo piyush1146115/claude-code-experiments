@@ -58,7 +58,13 @@ Tool definitions live in `src/lib/tools/`. The system prompt is in `src/lib/prom
 
 ### Data Model
 
+The database schema is defined in `prisma/schema.prisma` — reference it whenever you need to understand data structure.
+
 `Project.messages` and `Project.data` are JSON strings — chat history and the serialized virtual FS respectively. The Prisma client is generated into `src/generated/prisma/` (not `node_modules`).
+
+## Code Style
+
+Only comment complex or non-obvious code paths. Self-explanatory code should not have comments.
 
 ## Important Patterns
 
