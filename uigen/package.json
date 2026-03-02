@@ -13,7 +13,7 @@
     "db:reset": "npx prisma migrate reset --force"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "1.2.12",
+    "@ai-sdk/anthropic": "^3.0.50",
     "@ai-sdk/react": "^3.0.107",
     "@babel/standalone": "^7.27.6",
     "@monaco-editor/react": "^4.7.0",
@@ -34,8 +34,8 @@
     "jose": "^6.0.11",
     "lucide-react": "^0.517.0",
     "next": "^15.5.12",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-markdown": "^10.1.0",
     "react-resizable-panels": "^3.0.3",
     "server-only": "^0.0.1",
